@@ -21,11 +21,16 @@
 .container h1 {
     position: relative;
     top: 20px;
-    font-size: clamp(60px, 70px, 80px);
+    font-size: clamp(50px, 60px, 70px);
 }
 
 .contents {
     text-align: center;
+}
+
+.input {
+    position: relative;
+    top: 50px;
 }
 
 input {
