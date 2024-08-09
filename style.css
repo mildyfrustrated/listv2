@@ -55,6 +55,7 @@ button {
     height: 35px;
     border-radius: 2px;
     opacity: 0.33;
+    font-size: clamp(10px, 15px, 25px);
 }
 
 #donkey {
@@ -70,6 +71,7 @@ button {
     bottom: 28px;
     transition: ease 0.3s;
     opacity: 1;
+    
 }
 
 #normal {
@@ -81,9 +83,11 @@ button {
 
 #link {
     position: relative;
-    left: 7px;
+    left: 30px;
     text-decoration: none;
     color: white;
+    font-size: clamp(15px, 22px, 25px);
+    
 }
 
 #donkey:hover {
